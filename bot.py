@@ -6,7 +6,7 @@ client = commands.Bot(command_prefix='!')
 @client.event
 async def on_ready():
     await client.change_presence(status=discord.Status.online, activity=discord.Game('Start by typing \'!help1\''))
-    print("Bot is online")
+    print("bbbot is online")
 
 
 @client.command()
